@@ -154,9 +154,9 @@ with st.container():
             # Mostrar resultado
             st.write('### Resultado da Análise')
             if previsao[0] == 1:
-                st.error('O paciente não está propenso a Obesidade.')
+                st.error('O paciente está propenso a Obesidade.')
             else:
-                st.success(' paciente está propenso a Obesidade..')
+                st.success(' paciente não está propenso a Obesidade.')
             
             st.write(f'Probabilidade de ser Obeso: {100*probabilidade[0][1]}%')
         
