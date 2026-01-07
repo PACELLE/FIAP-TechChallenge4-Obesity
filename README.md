@@ -21,6 +21,7 @@ Além da modelagem preditiva, o projeto também contempla a criação de um **da
 ## 🗂 Estrutura do Projeto
 FIAP-TechChallenge4-Obesity/
 ├── data/ # Conjunto de dados utilizados
+
 ├── models/ # Modelos treinados e serializados
 ├── notebook_V1.ipynb # Análise exploratória e modelagem (versão 1)
 ├── notebook_V2.ipynb # Análise exploratória e modelagem (versão 2)
