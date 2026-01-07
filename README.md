@@ -101,3 +101,9 @@ A aplicação foi desenvolvida em Python, utilizando bibliotecas voltadas para c
 git clone https://github.com/PACELLE/FIAP-TechChallenge4-Obesity.git
 cd FIAP-TechChallenge4-Obesity
 
+### 2️⃣ Criar Ambiente Virtual (Recomendado)
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
