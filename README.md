@@ -100,10 +100,42 @@ A aplicação foi desenvolvida em Python, utilizando bibliotecas voltadas para c
 ```bash
 git clone https://github.com/PACELLE/FIAP-TechChallenge4-Obesity.git
 cd FIAP-TechChallenge4-Obesity
+```
 
 ### 2️⃣ Criar Ambiente Virtual (Recomendado)
 
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
+```
 
+### 3️⃣ Instalar Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Executar os Notebooks
+```bash
+jupyter notebook notebook_V1.ipynb
+```
+e/ou
+
+```bash
+jupyter notebook notebook_V2.ipynb
+```
+
+### 5️⃣ Executar a Aplicação
+```bash
+python app_V2.py
+```
+## 🧪 Resultados
+
+Os modelos treinados demonstram boa capacidade de classificação dos níveis de obesidade, permitindo:
+
+- Identificação de padrões comportamentais
+- Apoio à análise de risco
+- Visualização clara dos dados e previsões
+
+Os resultados variam conforme a configuração e o modelo utilizado, sendo comparados nos notebooks.
